@@ -3,7 +3,7 @@ package SingleTonWithThreadSafe;
 public class Logger {
 
 	private static volatile Logger loggerInstace = null;
-
+	//volatile prevents instruction reordering and ensures that all threads see the fully initialized object.
 	private Logger() {
 	}
 
