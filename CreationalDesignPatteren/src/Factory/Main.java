@@ -53,4 +53,38 @@ public class Main {
 
 	
 }
+/*
+ * 
+ * Difference and example of Factory and abstract factory designpatteren
+ * 
+ * The Factory Method creates one type of object but lets subclasses decide which concrete class to instantiate.
+ * The Abstract Factory creates families of related objects.
+ * 
+ * | Feature    | Factory Method             | Abstract Factory                          |
+| ---------- | -------------------------- | ----------------------------------------- |
+| Purpose    | Create **one object type** | Create **families of objects**            |
+| Factories  | Single factory             | Multiple factories                        |
+| Complexity | Simple                     | More complex                              |
+| Products   | One hierarchy              | Multiple related hierarchies              |
+| Example    | RideFactory → Bike/Cab     | EconomyFactory → EconomyBike + EconomyCab |
+
+Examples :
+ Factory : 
+ A Notification system where we send different types of notifications:
+        Email
+        SMS
+        Push notification
+A single factory decides which object to create.
+
+ Abstract Factory :
+ 
+ A UI theme system where we create families of related UI components.
+      Themes:
+            Light Theme
+            Dark Theme
+      Components:
+            Button
+            Checkbox
+Each theme produces matching components
+ */
 
