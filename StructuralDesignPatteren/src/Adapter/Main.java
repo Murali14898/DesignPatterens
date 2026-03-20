@@ -12,6 +12,10 @@ package Adapter;
  * If zomato didn't follow the Adapter DP then Switching to Different bank causes problem like
  *  1. Removing all code which was written for SBI bank
  *  2. Tightly coupled
+ *  
+ *  Ex3: In phone pe you are checking the balance for different bank account of yours.
+ *  
+ *  How phone pe added this by using Adapter dp
  */
 
 public class Main {
