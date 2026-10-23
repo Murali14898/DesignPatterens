@@ -34,7 +34,7 @@ public class Main {
 		System.out.println(vf.getFactory().totalFair(20));
 		return 0;
 	}
-
+//this should be in another class but for practice I write here
 	private static VechileFactory vechileDecider(String clientClickedVechileType) {
 		if(clientClickedVechileType.equalsIgnoreCase("Bike")) {
 			return new BikeFactory();
