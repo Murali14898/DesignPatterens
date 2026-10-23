@@ -8,7 +8,7 @@ public class Main {
 		sr.register(s, "Batch_A");
 		Student s1 = new Student();
 		s1.batch = "B";
-		sr.register(s, "Batch_B");
+		sr.register(s1, "Batch_B");
 	}
 
 	public static void main(String[] args) {
